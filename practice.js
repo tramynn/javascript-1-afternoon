@@ -3,6 +3,7 @@
 //Create a variable called myName that is a string data type
 
 //Code here
+jdsadjas
 
 //////////////////PROBLEM 2////////////////////
 
