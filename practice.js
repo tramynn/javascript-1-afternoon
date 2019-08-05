@@ -4,20 +4,22 @@
 
 //Code here
 var myName;
-var myName = "Tramy Ngoc Nguyen";
+var myName = 'Tramy Ngoc Nguyen';
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
-var myAge = "24";
+var myAge;
+var myAge = 24;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
+var lovesCode;
 var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
