@@ -3,7 +3,6 @@
 //Create a variable called myName that is a string data type
 
 //Code here
-var myName;
 var myName = 'Tramy Ngoc Nguyen';
 
 //////////////////PROBLEM 2////////////////////
@@ -11,7 +10,6 @@ var myName = 'Tramy Ngoc Nguyen';
 //Create a variable called myAge that is a number data type
 
 //Code here
-var myAge;
 var myAge = 24;
 
 //////////////////PROBLEM 3////////////////////
@@ -19,7 +17,6 @@ var myAge = 24;
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-var lovesCode;
 var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
@@ -46,7 +43,6 @@ var devMountainGoal = null;
 //Code here
 function greeting(name) {
   return "Hello, " + name;
-   
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -55,9 +51,12 @@ function greeting(name) {
 //Name it newGreeting.
 
 //Code Here
-let greeting = function(name) {
+let newGreeting = function(name) {
   return "Hello, " + name;
  }
+
+ newGreeting('Tramy');
+ 
 
 //////////////////PROBLEM 8////////////////////
 
@@ -66,6 +65,7 @@ let greeting = function(name) {
 
 //Code Here
 let groceries = ["apples", "milk", "eggs", "bread"];
+console.log("I need to grab " + groceries + " at Target.");
 
 //////////////////PROBLEM 9////////////////////
 
@@ -75,18 +75,19 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 //and goodBoy (a boolean).
 
 //Code Here
-let dog = {
-  name: "Choco",
-  color: "White",
-  age: "4"
+var dog = {
+  name: 'Choco',
+  color: 'white',
+  age: 4,
+  goodBoy: true
 }
-
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-dog.name = devMountainClassPet;
+var devMountainClassPet = dog.name
+
 
 //////////////////PROBLEM 10////////////////////
 
@@ -104,13 +105,10 @@ function nameCheck(name) {
   } else if (name == 'Bryan') {
     return 'Hey Bryan!';
   } else {
-    return 'Cool name ' + name;
+    return 'Cool name, ' + name;
   }
 }
 
-nameCheck('Steven');
-nameCheck('Bryan');
-nameCheck('Tramy');
 
 //////////////////PROBLEM 11////////////////////
 
@@ -182,16 +180,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = [];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["rubberDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
